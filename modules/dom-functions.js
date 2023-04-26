@@ -1,6 +1,6 @@
 /* dom-functions.js */
 
-const toggleHiddenElement = (domElements) => {
+const toggleHiddenElement = (domElement) => {
     if (domElement.style.display === 'none') {
         domElement.style.display === 'block';
     } else {
@@ -9,7 +9,7 @@ const toggleHiddenElement = (domElements) => {
 }
 // Above is the function which check to see if the element is hidden or showing in the DOM.
 
-const changeToFunkColor = (domElement) => {
+const changeToFunkyColor = (domElement) => {
     const r = Math.random() * 255;
     const g = Math.random() * 255;
     const b = Math.random() * 255;
