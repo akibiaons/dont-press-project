@@ -18,3 +18,13 @@ const changeToFunkColor = (domElement) => {
 }
 
 export {toggleHiddenElement, changeToFunkyColor}; // To the left here is the export declaration or whatever...
+
+/* 
+I will break down how this module works...
+
+- The toggleHiddenElement() function is declared and accepts the domElement as an input and shows or hides the element based on its cirrent display value...
+
+- A new function changetoFunkyColor() is declared and accepts the domElement as an input as well. It sets a random background color value too.
+
+- The two functions are exported with the ES6 export statement...
+*/
