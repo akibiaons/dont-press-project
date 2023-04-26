@@ -1,0 +1,1 @@
+import { toggleHiddenElement, changeToFunkyColor } from '../modules/dom-functions';
