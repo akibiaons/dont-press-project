@@ -20,15 +20,14 @@ const smallestPowerOfTwo = (arr) => {
   for (let i = 0; i < numbers.length; i++) {
     number = arr[i];
     // The 'inner' while loop - searches for smallest power of 2 greater than the given number
-  i = numbers;
-    while (i < number) {
-      i = i * 2;
+    let j = 1
+    while (j < number) {
+      j = j * 2;
     }
-    results.push(i);
+    results.push(j);
   }
   return results;
 };
 
 console.log(smallestPowerOfTwo(numbers));
 // Should print the returned array [ 8, 4, 16, 32 ] instead prints the returned array [8]
-
